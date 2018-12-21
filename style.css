@@ -1,0 +1,346 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+header {
+    padding: 10px;
+    max-width: 800px;
+    margin: auto;
+    }
+header ul{
+list-style: none;
+
+}
+header li{
+    display: inline-block;
+}
+header li img{
+    margin-right: 8px;
+    margin-left:20px;
+    vertical-align: middle;
+}
+
+li:nth-child(1) img{
+    width: 155px;
+}
+li:nth-child(2) form input{
+width: 300px;
+height: 18px;
+border-radius: 5px;
+}
+li:nth-child(3) img{
+    width: 25px;
+}
+li:nth-child(4) img{
+    width: 25px;
+}
+li:nth-child(5) img{
+    width: 25px;
+}
+
+/* Section 1 --> MENU*/
+/*------------START---------*/
+#navbar {
+    overflow: hidden;
+}
+#navbar a {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(71, 70, 70);
+  }
+#navbar a:hover {
+    color:#C9E386;
+  }
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+   background-color: white;
+    z-index: 1;
+    box-shadow: 1px 1px 6px #555;
+  }
+.menu{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    border-top: 1px  solid #EFECEC;
+}
+.menu a{
+    padding: 25px;;
+    font-size: 12px;
+}
+.menu nav a{
+    text-decoration: none;
+}
+/* Section 1 --> MENU*/
+/*------------END---------*/
+
+/* Section 2 --> COFFRET*/
+/*------------START---------*/
+.main_1{
+background-color: #EBE3EB;
+}
+.main_1 h1{
+    font-size: 20px;
+    font-family: 'Handlee';
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.sous_main1{
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 60px;
+}
+.sous_main1 article{
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 32%;
+}
+.sous_main1 article p {
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.sous_main1 article img {
+width: 210Px;
+padding: 30px;
+}
+.aquarelle_1 {
+    background-image: url(img/ressources_page_1/aquarelle-1.png);
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.aquarelle_2 {
+    background-image: url(img/ressources_page_1/aquarelle.png);
+    background-size: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/* Section 2 --> COFFRET*/
+/*------------END---------/
+
+/* Section 3 --> Inspirations du moment*/
+/*------------START---------*/
+.main_2 {
+    max-width: 800px;
+    margin: auto;
+    padding-bottom: 40px;
+}
+.main_2 h1 {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Handlee';
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+.sous_main2{
+    font-size: 10px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.sous_main2 article {
+    display: inline-block;
+    align-content: center;
+}
+
+.sous_main2 article p{
+    width: 70%;
+    margin-left: 24px;
+}
+.sous_main2 article img{
+    width: 50px;
+    height: auto;
+    background-color: #C9E386;
+    border-radius: 35%;
+    padding: 1rem;
+}
+
+/* Section 3 --> Inspiration du moment*/
+/*------------END---------*/
+
+/* Section 4 --> Nos valeurs*/
+/*------------START---------*/
+.main_3{
+    background-color: #EBE3EB;
+    padding-bottom: 40px;
+    position: relative;
+}
+
+.main_3::before, .main_3::after{
+    content: '';
+    display: block;
+    position: absolute;
+    width: 15rem;
+    height: 15rem;
+    background-image: url(img/ressources_page_1/fleur_aqua_1.png);
+    background-size: contain;
+}
+.main_3::before{
+    top: 0;
+    left: 0;
+    -webkit-transform: rotate(-180deg);
+    -moz-transform: rotate(-180deg);
+    -o-transform:rotate(-180deg);
+    transform: rotate(-180deg);
+}
+     
+.main_3::after{
+    bottom: 0;
+    right: 0;
+
+}
+.sous_main3{
+    max-width: 800px;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+li  p {
+    margin: 0;
+}
+
+.sous_main3 h1{
+    font-size: 20px;
+    font-family: 'Handlee';
+    font-style: inherit;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.sous_main3 p{
+ font-size: 13px;
+}
+.sous_main3 ul{
+    list-style: none;
+}
+.sous_main3 img{
+    width: 40%;
+}
+
+.sous_main3 li:nth-child(even){
+    position: relative;
+    width: 40%;
+    text-align: left;
+    float: right;
+    margin: 5px 5px;
+}
+.sous_main3 li:nth-child(odd){
+    position: relative;
+    width: 40%;
+    text-align: right;
+    clear: both;
+    margin: 5px 5px;
+
+}
+
+.sous_main3 li:nth-child(even) img{
+position: absolute;
+left: -30%;
+top: 47px;
+}
+
+.sous_main3 li:nth-child(odd) img{
+    position: absolute;
+    right: -28%;
+    width: 14%;
+    }
+
+.sous_main3 li:nth-child(1) img{
+    top: 28px;
+}
+.sous_main3 li:nth-child(2) img{
+    width: 32px;
+}
+.sous_main3 li:nth-child(3) img{
+    top: 49px;
+}
+.sous_main3 li:nth-child(4) img{
+    width: 34px;
+}
+.sous_main3 li:nth-child(5) img{
+    width: 28px;
+    top: 40px;
+}
+/* Section 4 -->Nos valeurs */
+/*------------END---------*/
+
+
+/* Section 5 --> Écologie
+/*------------START---------*/
+.main_4{
+    max-width: 800px;
+    margin: auto;
+}
+.main_4 h1{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Handlee';
+    margin: 0;
+    padding: 80px 0px 50px 0px;
+}
+.sous_main4_1{
+    margin-bottom: 40px;
+}
+.sous_main4_1 div{
+    display: inline-block;
+    vertical-align: middle;
+}
+.text_4{
+    width: 35%
+}
+.text_4 p {
+    font-size: 11px;
+    margin-right: 40px;
+    margin-left:50px;
+    margin-bottom: 15px;
+}
+.image_text img {
+    width: 300px;
+}
+
+/* Section 5 --> Écologie
+/*------------END---------*/
+
+/*Footer */
+footer{
+max-width: 800px;
+    margin: auto;
+    border-top: #EFECEC  solid 1px;
+    opacity:10%;
+}
+
+.main_footer div{
+display: inline-block;
+margin: 40px 24px;
+vertical-align: top;
+}
+.main_footer div:nth-child(1){
+    width: 23%;
+    margin-left: 30px;
+}
+.main_footer div h1{
+font-size: 13px;
+margin: 0px;
+}
+
+.main_footer div p {
+font-size: 8px;
+
+}
+
+.main_footer div:first-child h1{
+    border-bottom: #707070 solid 1px;
+    padding-top: 20px;
+    opacity:10%;
+}
+.main_footer div:first-child p{
+margin: 0;
+}
+/* ---------END-----------*/
